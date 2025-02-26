@@ -1,6 +1,8 @@
 # 项目介绍
 在现代制造业中，产品质量的稳定性与一致性至关重要。统计过程控制（SPC）作为一种基于数据分析的质量控制方法，能有效监测生产过程中的变异，及时发现潜在质量问题。为满足高效精准 SPC 分析的需求，开发此工具。
 
+后端项目：
+
 **框架**
 
 环境：JDK1.8
@@ -18,8 +20,6 @@ PS：mongdb部署需采用副本集模式或者分片集群模式，否则不支
 
 **运行：**
 
-后端项目：
-
 修改为你的mongdb配置：
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/38711469/1740551918251-c91fe26e-571b-4f76-8dc5-47b2cc47a5b9.png)
@@ -28,9 +28,49 @@ mongdb库执行scripts/spc_chart.js这个脚本；
 
 启动QcFiveApplication.class即可
 
-前端项目：
+**前端项目：**
+
+| <font style="color:rgb(31, 35, 40);">项目</font> | <font style="color:rgb(31, 35, 40);">简介</font> |
+| --- | --- |
+| [**qc-five-web**](https://github.com/benzhz/qc-five-web) | <font style="color:rgb(31, 35, 40);">基于vue-vben-admin v2开发</font> |
 
 
+node：v20.18.1
+
+pnpm ：10.5.1
+
+**安装使用**
+
++ **获取项目代码**
+
+```bash
+git clone https://github.com/benzhz/qc-five-web.git
+```
+
++ **安装依赖**
+
+```bash
+cd qc-five-web
+pnpm install
+```
+
++ **运行**
+
+```bash
+pnpm serve
+```
+
++ **打包**
+
+```bash
+pnpm build
+```
+
+vben相关文档：
+
+[https://github.com/vbenjs/vue-vben-admin/tree/v2](https://github.com/vbenjs/vue-vben-admin/tree/v2)
+
+[https://doc.vvbin.cn/](https://doc.vvbin.cn/)
 
 
 
