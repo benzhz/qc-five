@@ -1,0 +1,10 @@
+server:
+  port: 8089
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: spc
+      #username: root
+      #password: Aa123456
