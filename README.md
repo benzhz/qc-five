@@ -1,6 +1,11 @@
 # 项目介绍
 在现代制造业中，产品质量的稳定性与一致性至关重要。统计过程控制（SPC）作为一种基于数据分析的质量控制方法，能有效监测生产过程中的变异，及时发现潜在质量问题。为满足高效精准 SPC 分析的需求，开发此工具。
 
+| **<font style="color:rgb(64, 72, 91);">项目</font>** | gitee | **<font style="color:rgb(64, 72, 91);">github</font>** | **<font style="color:rgb(64, 72, 91);">简介</font>** |
+| :--- | --- | :--- | :--- |
+| **<font style="color:rgb(64, 72, 91);">qc-five</font>** | [<font style="color:rgb(0, 89, 128);">qc-five</font>](https://gitee.com/seventeen8128/qc-five) | [qc-five](https://github.com/benzhz/qc-five)**<font style="color:rgb(64, 72, 91);"></font>** | **<font style="color:rgb(64, 72, 91);">后端项目</font>** |
+| qc-five-web | [<font style="color:rgb(0, 89, 128);">qc-five-web</font>](https://gitee.com/seventeen8128/qc-five-web) | [qc-five-web](https://github.com/benzhz/qc-five-web) | <font style="color:rgb(64, 72, 91);">基于vue-vben-admin v2开发的项目前端</font> |
+
 后端项目：
 
 **框架**
@@ -29,11 +34,6 @@ mongdb库执行scripts/spc_chart.js这个脚本；
 启动QcFiveApplication.class即可
 
 **前端项目：**
-
-| <font style="color:rgb(31, 35, 40);">项目</font> | <font style="color:rgb(31, 35, 40);">简介</font> |
-| --- | --- |
-| [**qc-five-web**](https://github.com/benzhz/qc-five-web) | <font style="color:rgb(31, 35, 40);">基于vue-vben-admin v2开发</font> |
-
 
 node：v20.18.1
 
